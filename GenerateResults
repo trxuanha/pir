@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+# Generate results
+Rscript  SurvML.R
+python GeneratePaperResults.py

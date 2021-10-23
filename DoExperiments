@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+#DAG creation
+Rscript TurnoverDAG.R
+Rscript HrDAG.R
+Rscript AdultDAG.R
+
+#Adult
+python AdultBaseline.py
+Rscript AdultBaseline.R
+Rscript AdultPIR.R
+
+# HR
+python HrBaseline.py
+Rscript HrBaseline.R
+Rscript HrPIR.R
+python HrBaseline_Surv.py
+Rscript HrBaseline_Surv.R
+Rscript HrPIR_Surv.R
+
+#Turn over
+python TurnoverBaseline.py
+Rscript TurnoverBaseline.R
+Rscript TurnoverPIR.R
+python TurnoverBaseline_Surv.py
+Rscript TurnoverBaseline_Surv.R
+Rscript TurnoverPIR_Surv.R
+
+# Generate results
+Rscript  SurvML.R
+python GeneratePaperResults.py
