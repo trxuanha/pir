@@ -50,10 +50,6 @@ Infrastructure used to run experiments:
 * RAM: 16 GB.
 # Run experiments
 
-There two options of generating results in the paper for the public datasets:
-* To generate results in the paper from existing data (existing generated
-recommendations), run shell script GenerateResults. The generated results are located
-in folder output/PerformanceEval.
-* To generate results in the paper from scratch, run shell script DoExperiments. The
+To generate results in the paper from scratch, run shell script DoExperiments. The
 generated results are located in folder output/PerformanceEval.
 
