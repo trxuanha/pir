@@ -40,7 +40,7 @@ version 2.0.9, nnet version 7.3.15, stringr version 1.4.0, graph version 1.64.0.
 * R software required to process results: survival version 3.2.7, survminer version 0.4.8,
 ggpubr version 0.4.0.
 * Python software required to process results: statistics version 1.0.3.5, scipy version
-1.4.1.
+1.4.1, numpy, pandas, seaborn, matplotlib.
 * R software required to run experiments in parallel: foreach version 1.5.1, doParallel
 version 1.0.16.
 
