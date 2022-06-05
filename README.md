@@ -1,6 +1,10 @@
 # Personalized intervention recommendation
 
-A R implementation of Personalized Intervention Recommendation (PIR) in paper "Recommending Personalized Interventions to Increase Employability of Disabled Jobseekers". We use existing implementations of the baseline methods to compare with our method. They are:
+A R implementation of Personalized Intervention Recommendation (PIR) in paper "Recommending Personalized Interventions to Increase Employability of Disabled Jobseekers". In the 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2022), pages 92-104.
+
+This paper can be found at: https://link.springer.com/chapter/10.1007/978-3-031-05981-0_8
+
+We use existing implementations of the baseline methods to compare with our method. They are:
 
 * CT, TOT, ST, FT: The existing implementation is located at
 https://github.com/susanathey/causalTree.
